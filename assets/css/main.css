@@ -2,16 +2,16 @@
 
 :root {
   /* Color Palette */
-  --primary-violet: #6B5B95;      /* Deep violet for primary elements */
-  --secondary-blue: #3F88C5;      /* Professional blue for secondary elements */
-  --accent-green: #44A08D;        /* Soft green for accents and highlights */
-  --light-violet: #9F8AC2;        /* Lighter violet for backgrounds */
-  --light-blue: #A8D0E6;          /* Light blue for secondary backgrounds */
-  --light-green: #8ED1B5;         /* Light green for tertiary elements */
-  --dark-text: #333333;           /* Dark gray for main text */
-  --light-text: #FFFFFF;          /* White for text on dark backgrounds */
-  --neutral-light: #F5F7FA;       /* Light neutral for backgrounds */
-  --neutral-medium: #E1E5EB;      /* Medium neutral for borders */
+  --primary-violet: #6D435A;      /* Deep violet for primary elements */
+  --secondary-blue: #0892A5;      /* Professional blue for secondary elements */
+  --accent-pink: #FF6978;         /* Soft pink for accents and highlights */
+  --light-violet: #352D39;        /* Darker violet for backgrounds */
+  --light-blue: #0892A5;          /* Light blue for secondary backgrounds */
+  --light-pink: #FF6978;          /* Light pink for tertiary elements */
+  --dark-text: #352D39;           /* Dark violet for main text */
+  --light-text: #FFFCF9;          /* Off-white for text on dark backgrounds */
+  --neutral-light: #FFFCF9;       /* Off-white for backgrounds */
+  --neutral-medium: #FFFCF9;      /* Off-white for borders with reduced opacity */
   
   /* Typography */
   --font-primary: 'Montserrat', sans-serif;
@@ -191,7 +191,7 @@ nav a:hover {
 .button {
   display: inline-block;
   padding: 0.8rem 1.5rem;
-  background-color: var(--accent-green);
+  background-color: var(--accent-pink);
   color: var(--light-text);
   border-radius: 4px;
   font-weight: 600;
@@ -202,7 +202,7 @@ nav a:hover {
 }
 
 .button:hover {
-  background-color: var(--light-green);
+  background-color: var(--light-pink);
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-decoration: none;
@@ -557,12 +557,12 @@ footer {
   left: 25%;
   width: 50%;
   height: 3px;
-  background: linear-gradient(to right, var(--primary-violet), var(--accent-green));
+  background: linear-gradient(to right, var(--primary-violet), var(--accent-pink));
 }
 
 .divider {
   height: 2px;
-  background: linear-gradient(to right, var(--primary-violet), var(--secondary-blue), var(--accent-green));
+  background: linear-gradient(to right, var(--primary-violet), var(--secondary-blue), var(--accent-pink));
   margin: 3rem 0;
   border-radius: 2px;
 }
@@ -682,7 +682,7 @@ footer {
 }
 
 .skill-card.medical:hover {
-  background-color: rgba(107, 91, 149, 0.05);
+  background-color: rgba(109, 67, 90, 0.05);
 }
 
 .skill-card.communication {
@@ -690,15 +690,15 @@ footer {
 }
 
 .skill-card.communication:hover {
-  background-color: rgba(63, 136, 197, 0.05);
+  background-color: rgba(8, 146, 165, 0.05);
 }
 
 .skill-card.ai {
-  border-color: var(--accent-green);
+  border-color: var(--accent-pink);
 }
 
 .skill-card.ai:hover {
-  background-color: rgba(68, 160, 141, 0.05);
+  background-color: rgba(255, 105, 120, 0.05);
 }
 
 .skill-card.training {
@@ -706,7 +706,7 @@ footer {
 }
 
 .skill-card.training:hover {
-  background-color: rgba(159, 138, 194, 0.05);
+  background-color: rgba(53, 45, 57, 0.05);
 }
 
 .skill-card h4 {
@@ -731,7 +731,7 @@ footer {
 }
 
 .project-highlight {
-  background: linear-gradient(135deg, rgba(107, 91, 149, 0.1) 0%, rgba(63, 136, 197, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(109, 67, 90, 0.1) 0%, rgba(8, 146, 165, 0.1) 100%);
   border-radius: 12px;
   padding: 2rem;
   margin: 3rem 0;
@@ -751,7 +751,7 @@ footer {
   left: 0;
   width: 100%;
   height: 5px;
-  background: linear-gradient(to right, var(--primary-violet), var(--accent-green));
+  background: linear-gradient(to right, var(--primary-violet), var(--accent-pink));
 }
 
 .vision-quote {
@@ -761,8 +761,8 @@ footer {
   line-height: 1.8;
   color: var(--primary-violet);
   padding: 2rem;
-  border-left: 4px solid var(--accent-green);
-  background-color: rgba(68, 160, 141, 0.05);
+  border-left: 4px solid var(--accent-pink);
+  background-color: rgba(255, 105, 120, 0.05);
   margin: 2rem 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -848,7 +848,7 @@ footer {
 }
 
 .social-button:hover {
-  background-color: var(--accent-green);
+  background-color: var(--accent-pink);
   transform: rotate(360deg);
 }
 
