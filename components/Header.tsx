@@ -14,12 +14,13 @@ export default function Header() {
         </div>
         <nav className="desktop-nav">
           <ul>
-            <li><Link href="/">Accueil</Link></li>
+            {/* Removed "Accueil" */}
             <li><Link href="/about">À propos</Link></li>
             <li><Link href="/services">Services</Link></li>
-            <li><Link href="/case-studies">Projets</Link></li>
-            <li><Link href="/blog">Blog</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
+            {/* Deactivated "Projets" and "Blog" by making them non-clickable spans */}
+            <li><span className="disabled-link">Projets</span></li>
+            <li><span className="disabled-link">Blog</span></li>
+            <li className="cta-link"><Link href="/contact" className="button button-small">Contact</Link></li>
           </ul>
         </nav>
         <MobileMenu />

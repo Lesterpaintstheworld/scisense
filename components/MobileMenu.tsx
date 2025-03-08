@@ -56,11 +56,12 @@ export default function MobileMenu() {
           </div>
           <nav className="mobile-menu-nav">
             <ul>
-              <li><Link href="/" onClick={() => setIsOpen(false)}>Accueil</Link></li>
+              {/* Removed "Accueil" */}
               <li><Link href="/about" onClick={() => setIsOpen(false)}>À propos</Link></li>
               <li><Link href="/services" onClick={() => setIsOpen(false)}>Services</Link></li>
-              <li><Link href="/case-studies" onClick={() => setIsOpen(false)}>Projets</Link></li>
-              <li><Link href="/blog" onClick={() => setIsOpen(false)}>Blog</Link></li>
+              {/* Deactivated "Projets" and "Blog" by making them non-clickable spans */}
+              <li><span className="disabled-link">Projets</span></li>
+              <li><span className="disabled-link">Blog</span></li>
               <li><Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
             </ul>
           </nav>
