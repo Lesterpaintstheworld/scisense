@@ -25,9 +25,9 @@ export default function Contact() {
               <div style={{ marginBottom: '2rem' }}>
                 <h3>Informations de contact</h3>
                 <p>
-                  <strong>Email:</strong> contact@scisense.com<br />
-                  <strong>Téléphone:</strong> +33 (0)6 XX XX XX XX<br />
-                  <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">SciSense</a>
+                  <strong>Email:</strong> <a href="mailto:aurore.inchauspe@scisence.fr">aurore.inchauspe@scisence.fr</a><br />
+                  <strong>Téléphone:</strong> <a href="tel:+33629894916">06.29.89.49.16</a><br />
+                  <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aurore-inchausp%C3%A9-2493938b/" target="_blank" rel="noopener noreferrer">Aurore Inchauspé</a>
                 </p>
               </div>
               
