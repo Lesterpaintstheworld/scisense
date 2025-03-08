@@ -5,7 +5,9 @@ layout: about
 ---
 
 <div class="profile-card">
-  <div class="profile-image">Photo d'Aurore Inchauspé</div>
+  <div class="profile-image">
+    <img src="/images/aurore.jpg" alt="Aurore Inchauspé" />
+  </div>
   <div class="profile-info">
     <h1 class="profile-name">Aurore Inchauspé</h1>
     <p class="profile-title">Consultante en Affaires Scientifiques & Médicales</p>

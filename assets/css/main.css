@@ -778,16 +778,19 @@ footer {
   width: 100%;
   height: 300px;
   background-color: var(--light-blue);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--primary-violet);
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
-.profile-card:hover .profile-image {
-  background-color: var(--light-violet);
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover .profile-image img {
+  transform: scale(1.05);
 }
 
 .profile-info {
