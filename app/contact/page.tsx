@@ -113,8 +113,8 @@ export default function Contact() {
             <div style={{ marginBottom: '2rem' }}>
               <h3>Dans quels secteurs intervenez-vous principalement?</h3>
               <p>
-                J'interviens principalement dans les secteurs pharmaceutique, biotechnologique, nutraceutique et cosmétique, 
-                mais mon expertise est applicable à tout domaine nécessitant une communication scientifique rigoureuse et stratégique.
+                Nous intervenons principalement dans les secteurs pharmaceutique, biotechnologique, nutraceutique et cosmétique, 
+                mais notre expertise est applicable à tout domaine nécessitant une communication scientifique rigoureuse et stratégique.
               </p>
             </div>
             
