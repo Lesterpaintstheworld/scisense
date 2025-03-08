@@ -206,9 +206,9 @@ layout: about
   <li>Intégrer les dernières avancées technologiques, notamment l'IA, dans les processus scientifiques</li>
 </ul>
 
-## Collaborer avec Aurore
+## Collaborer avec SciSense
 
-<p>Travailler avec Aurore, c'est bénéficier d'une approche qui allie:</p>
+<p>Travailler avec SciSense, c'est bénéficier d'une approche qui allie:</p>
 
 <div class="skill-grid">
   <div class="skill-card">
