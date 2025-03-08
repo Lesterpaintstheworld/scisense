@@ -7,9 +7,9 @@ export default function Home() {
     <main>
       <section className="hero">
         <div className="container">
-          <h1>Aurore Inchauspé</h1>
-          <h2>Consultante en Affaires Scientifiques &amp; Médicales</h2>
-          <p className="hero-tagline">Excellence scientifique. Vision stratégique. Impact international.</p>
+          <h1>SciSense</h1>
+          <h2>Making Science make sense</h2>
+          <p className="hero-tagline">Expertise scientifique au service de vos projets médicaux</p>
           <div>
             <Link href="/contact" className="button">Prendre rendez-vous</Link>
             <Link href="/about" className="button button-secondary">En savoir plus</Link>
