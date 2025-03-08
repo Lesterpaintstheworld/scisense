@@ -115,5 +115,49 @@
             </div>
         </div>
     </footer>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Add animation to timeline items when they come into view
+        const timelineItems = document.querySelectorAll('.timeline-item');
+        
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.style.opacity = 1;
+              entry.target.style.transform = 'translateX(0)';
+            }
+          });
+        }, { threshold: 0.2 });
+        
+        timelineItems.forEach(item => {
+          item.style.opacity = 0;
+          item.style.transform = 'translateX(-20px)';
+          item.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+          observer.observe(item);
+        });
+        
+        // Add animation to skill cards
+        const skillCards = document.querySelectorAll('.skill-card');
+        
+        const skillObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+              setTimeout(() => {
+                entry.target.style.opacity = 1;
+                entry.target.style.transform = 'translateY(0)';
+              }, index * 100); // Staggered animation
+            }
+          });
+        }, { threshold: 0.1 });
+        
+        skillCards.forEach(card => {
+          card.style.opacity = 0;
+          card.style.transform = 'translateY(20px)';
+          card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+          skillObserver.observe(card);
+        });
+      });
+    </script>
 </body>
 </html>
