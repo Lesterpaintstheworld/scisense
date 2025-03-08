@@ -426,10 +426,18 @@ label {
 input, textarea, select {
   width: 100%;
   padding: 0.75rem;
-  border: 1px solid var(--neutral-medium);
+  border: 1px solid #d1d1d1; /* Change from var(--neutral-medium) to a visible light gray */
   border-radius: 4px;
   font-family: var(--font-primary);
   font-size: 1rem;
+  background-color: #fafafa; /* Add a very light background color */
+}
+
+/* Add focus styles for better accessibility */
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--secondary-blue);
+  box-shadow: 0 0 0 2px rgba(8, 146, 165, 0.2);
 }
 
 textarea {

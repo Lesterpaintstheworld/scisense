@@ -39,18 +39,6 @@ export default function Contact() {
                 </p>
               </div>
               
-              <div style={{ marginTop: '2rem' }}>
-                <h3 id="newsletter">S'abonner à la newsletter</h3>
-                <p>
-                  Recevez nos derniers articles, analyses et actualités directement dans votre boîte mail.
-                </p>
-                <form className="contact-form" style={{ padding: '1rem', marginTop: '1rem' }}>
-                  <div className="form-group">
-                    <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Votre adresse email" required />
-                  </div>
-                  <button type="submit" className="button">S'abonner</button>
-                </form>
-              </div>
             </div>
             
             <div className="contact-form">
@@ -160,7 +148,6 @@ export default function Contact() {
           document.addEventListener('DOMContentLoaded', function() {
             // Simple form validation and submission handling
             const contactForm = document.querySelector('.contact-form form');
-            const newsletterForm = document.querySelector('#newsletter-email').closest('form');
             
             if (contactForm) {
               contactForm.addEventListener('submit', function(e) {
@@ -168,15 +155,6 @@ export default function Contact() {
                 // In a real implementation, you would send the form data to your backend
                 alert('Merci pour votre message! Nous vous répondrons dans les plus brefs délais.');
                 contactForm.reset();
-              });
-            }
-            
-            if (newsletterForm) {
-              newsletterForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                // In a real implementation, you would send the email to your newsletter service
-                alert('Merci pour votre inscription à la newsletter!');
-                newsletterForm.reset();
               });
             }
           });

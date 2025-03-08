@@ -114,8 +114,8 @@ export default function Blog() {
           </div>
           
           <div className="text-center">
-            <p>Abonnez-vous à notre newsletter pour recevoir nos derniers articles et analyses.</p>
-            <Link href="/contact#newsletter" className="button">S'abonner à la newsletter</Link>
+            <p>Consultez régulièrement notre blog pour découvrir nos derniers articles et analyses.</p>
+            <Link href="/contact" className="button">Nous contacter</Link>
           </div>
         </div>
       </section>
