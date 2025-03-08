@@ -7,7 +7,10 @@ export default function Header() {
     <header>
       <div className="container header-container">
         <div className="logo">
-          <Link href="/">SciSense</Link>
+          <Link href="/" className="logo-link">
+            <span className="logo-text">SciSense</span>
+            <span className="logo-tagline">Making Science make sense</span>
+          </Link>
         </div>
         <nav className="desktop-nav">
           <ul>

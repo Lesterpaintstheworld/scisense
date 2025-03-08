@@ -1,6 +1,6 @@
 ---
-title: "À propos d'Aurore Inchauspé"
-description: "Découvrez le parcours professionnel d'Aurore Inchauspé, experte en affaires scientifiques et médicales avec une expérience internationale"
+title: "À propos de SciSense"
+description: "Découvrez l'expertise de SciSense en affaires scientifiques et médicales avec une expérience internationale"
 layout: about
 ---
 
@@ -9,8 +9,8 @@ layout: about
     <img src="/images/aurore.jpg" alt="Aurore Inchauspé" />
   </div>
   <div class="profile-info">
-    <h1 class="profile-name">Aurore Inchauspé</h1>
-    <p class="profile-title">Consultante en Affaires Scientifiques & Médicales</p>
+    <h1 class="profile-name">SciSense</h1>
+    <p class="profile-title">Expertise en Affaires Scientifiques & Médicales</p>
     <p class="profile-bio">Du laboratoire à la stratégie internationale, un parcours unique combinant rigueur scientifique et vision stratégique.</p>
     <div class="social-buttons">
       <a href="#" class="social-button" aria-label="LinkedIn">
@@ -196,7 +196,7 @@ layout: about
   "En tant que passerelle entre le monde de la recherche et celui de la stratégie d'entreprise, je m'engage à maintenir les plus hauts standards de rigueur scientifique tout en développant des stratégies de communication innovantes."
 </div>
 
-<p>Aurore est convaincue que l'excellence scientifique ne peut avoir un impact significatif que lorsqu'elle est communiquée de manière claire, stratégique et adaptée à ses différentes audiences. Elle s'engage à:</p>
+<p>Chez SciSense, nous sommes convaincus que l'excellence scientifique ne peut avoir un impact significatif que lorsqu'elle est communiquée de manière claire, stratégique et adaptée à ses différentes audiences. Nous nous engageons à:</p>
 
 <ul>
   <li>Maintenir les plus hauts standards de rigueur scientifique</li>

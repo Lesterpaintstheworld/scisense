@@ -66,9 +66,14 @@ export default function MobileMenu() {
           </nav>
           <div className="mobile-menu-footer">
             <div className="mobile-brand">SciSense - Making Science make sense</div>
-            <Link href="/contact" className="button" onClick={() => setIsOpen(false)}>
-              Prendre rendez-vous
-            </Link>
+            <div className="mobile-menu-buttons">
+              <Link href="/contact" className="button" onClick={() => setIsOpen(false)}>
+                Prendre rendez-vous
+              </Link>
+              <Link href="/about" className="button button-secondary" onClick={() => setIsOpen(false)}>
+                En savoir plus
+              </Link>
+            </div>
           </div>
         </div>
       )}

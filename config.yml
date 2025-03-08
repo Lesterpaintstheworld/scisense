@@ -1,8 +1,8 @@
 # Site configuration
-title: Aurore Inchauspé - Consultante en Affaires Scientifiques & Médicales
+title: SciSense - Making Science make sense
 description: Expertise en stratégies médico-scientifiques internationales, gestion de réseaux KOL et applications d'IA pour la recherche scientifique
 baseurl: ""
-url: "https://aurore-inchauspe.com"
+url: "https://scisense.com"
 
 # Build settings
 markdown: kramdown

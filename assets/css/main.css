@@ -118,9 +118,22 @@ header {
   font-weight: 700;
 }
 
-.logo a {
+.logo a, .logo-link {
   color: var(--light-text);
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.logo-text {
+  font-weight: 700;
+}
+
+.logo-tagline {
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.9;
 }
 
 /* Navigation */
@@ -199,11 +212,13 @@ nav a:hover {
 .button-secondary {
   background-color: transparent;
   border: 2px solid var(--light-text);
+  color: var(--light-text);
 }
 
 .button-secondary:hover {
   background-color: var(--light-text);
   color: var(--primary-violet);
+  text-decoration: none;
 }
 
 /* Services Section */
