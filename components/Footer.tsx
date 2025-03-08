@@ -7,8 +7,8 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-column">
-            <h3>Aurore Inchauspé</h3>
-            <p>Consultante en Affaires Scientifiques &amp; Médicales spécialisée dans les stratégies médico-scientifiques internationales et l'IA pour la recherche.</p>
+            <h3>SciSense</h3>
+            <p>Expertise en Affaires Scientifiques &amp; Médicales spécialisée dans les stratégies médico-scientifiques internationales et l'IA pour la recherche.</p>
             <div className="social-links">
               <a href="#" className="social-link" aria-label="LinkedIn">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -45,12 +45,12 @@ export default function Footer() {
           </div>
           <div className="footer-column">
             <h3>Contact</h3>
-            <p>Pour toute demande de collaboration ou d'information, n'hésitez pas à me contacter.</p>
+            <p>Pour toute demande de collaboration ou d'information, n'hésitez pas à nous contacter.</p>
             <Link href="/contact" className="button">Prendre rendez-vous</Link>
           </div>
         </div>
         <div className="copyright">
-          &copy; {new Date().getFullYear()} Aurore Inchauspé. Tous droits réservés.
+          &copy; {new Date().getFullYear()} SciSense. Tous droits réservés.
         </div>
       </div>
     </footer>

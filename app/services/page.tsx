@@ -14,11 +14,11 @@ export default function Services() {
       <section className="section">
         <div className="container">
           <div className="section-title">
-            <h2>Mes Services</h2>
+            <h2>Nos Services</h2>
           </div>
           <p className="text-center">
             Forte d'une expertise unique combinant recherche scientifique et stratégie d'entreprise, 
-            j'offre un accompagnement personnalisé pour transformer vos défis scientifiques en opportunités.
+            SciSense offre un accompagnement personnalisé pour transformer vos défis scientifiques en opportunités.
           </p>
 
           <div id="strategy" className="service-card" style={{ marginBottom: '2rem' }}>
@@ -149,12 +149,12 @@ export default function Services() {
             <h2>Prêt à transformer vos défis scientifiques en opportunités?</h2>
           </div>
           <p className="text-center">
-            Chaque projet est unique et mérite une approche personnalisée. Contactez-moi pour discuter 
-            de vos besoins spécifiques et découvrir comment mon expertise peut vous aider à atteindre vos objectifs.
+            Chaque projet est unique et mérite une approche personnalisée. Contactez-nous pour discuter 
+            de vos besoins spécifiques et découvrir comment notre expertise peut vous aider à atteindre vos objectifs.
           </p>
           <div className="text-center" style={{ marginTop: '2rem' }}>
             <Link href="/contact" className="button">Prendre rendez-vous</Link>
-            <Link href="/case-studies" className="button button-secondary">Voir mes projets</Link>
+            <Link href="/case-studies" className="button button-secondary">Voir nos projets</Link>
           </div>
         </div>
       </section>

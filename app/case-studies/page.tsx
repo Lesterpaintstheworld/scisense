@@ -17,8 +17,8 @@ export default function CaseStudies() {
             <h2>Études de cas</h2>
           </div>
           <p className="text-center">
-            Voici quelques exemples concrets de projets sur lesquels j'ai travaillé. Pour des raisons de confidentialité, 
-            certains détails ont été anonymisés, mais ces cas illustrent parfaitement mon approche et les résultats obtenus.
+            Voici quelques exemples concrets de projets sur lesquels nous avons travaillé. Pour des raisons de confidentialité, 
+            certains détails ont été anonymisés, mais ces cas illustrent parfaitement notre approche et les résultats obtenus.
           </p>
 
           <div id="ai-research" className="project-highlight" style={{ marginBottom: '3rem' }}>
@@ -152,12 +152,12 @@ export default function CaseStudies() {
             <h2>Votre projet est unique</h2>
           </div>
           <p className="text-center">
-            Ces études de cas ne représentent qu'un aperçu des projets sur lesquels j'ai travaillé. Chaque défi est unique 
-            et mérite une approche personnalisée. Contactez-moi pour discuter de votre projet spécifique.
+            Ces études de cas ne représentent qu'un aperçu des projets sur lesquels nous avons travaillé. Chaque défi est unique 
+            et mérite une approche personnalisée. Contactez-nous pour discuter de votre projet spécifique.
           </p>
           <div className="text-center" style={{ marginTop: '2rem' }}>
             <Link href="/contact" className="button">Prendre rendez-vous</Link>
-            <Link href="/services" className="button button-secondary">Découvrir mes services</Link>
+            <Link href="/services" className="button button-secondary">Découvrir nos services</Link>
           </div>
         </div>
       </section>

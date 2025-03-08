@@ -6,7 +6,7 @@ export default function About() {
     <main>
       <section className="hero" style={{ padding: '4rem 0' }}>
         <div className="container">
-          <h1>À propos d'Aurore Inchauspé</h1>
+          <h1>À propos de SciSense</h1>
         </div>
       </section>
 
@@ -14,11 +14,11 @@ export default function About() {
         <div className="container">
           <div className="about-content">
             <div className="profile-card">
-              <div className="profile-image">Photo d'Aurore Inchauspé</div>
+              <div className="profile-image">Logo SciSense</div>
               <div className="profile-info">
-                <h1 className="profile-name">Aurore Inchauspé</h1>
-                <p className="profile-title">Consultante en Affaires Scientifiques & Médicales</p>
-                <p className="profile-bio">Du laboratoire à la stratégie internationale, un parcours unique combinant rigueur scientifique et vision stratégique.</p>
+                <h1 className="profile-name">SciSense</h1>
+                <p className="profile-title">Expertise en Affaires Scientifiques & Médicales</p>
+                <p className="profile-bio">Du laboratoire à la stratégie internationale, une approche unique combinant rigueur scientifique et vision stratégique.</p>
                 <div className="social-buttons">
                   <a href="#" className="social-button" aria-label="LinkedIn">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -43,7 +43,19 @@ export default function About() {
               "L'excellence scientifique ne peut avoir un impact significatif que lorsqu'elle est communiquée de manière claire, stratégique et adaptée à ses différentes audiences."
             </div>
 
-            <h2>Parcours Professionnel</h2>
+            <h2>Notre Approche</h2>
+            
+            <p>Chez SciSense, nous sommes convaincus que l'excellence scientifique ne peut avoir un impact significatif que lorsqu'elle est communiquée de manière claire, stratégique et adaptée à ses différentes audiences. En tant que passerelle entre le monde de la recherche et celui de la stratégie d'entreprise, nous nous engageons à:</p>
+
+            <ul>
+              <li>Maintenir les plus hauts standards de rigueur scientifique</li>
+              <li>Développer des stratégies de communication innovantes</li>
+              <li>Faciliter la collaboration entre équipes scientifiques et commerciales</li>
+              <li>Rendre la science accessible sans en sacrifier la complexité</li>
+              <li>Intégrer les dernières avancées technologiques, notamment l'IA, dans les processus scientifiques</li>
+            </ul>
+
+            <h2>Notre Expertise</h2>
 
             <div className="about-timeline">
               <div className="timeline-item">
@@ -213,9 +225,9 @@ export default function About() {
               <li>Intégrer les dernières avancées technologiques, notamment l'IA, dans les processus scientifiques</li>
             </ul>
 
-            <h2>Collaborer avec Aurore</h2>
+            <h2>Collaborer avec SciSense</h2>
 
-            <p>Travailler avec Aurore, c'est bénéficier d'une approche qui allie:</p>
+            <p>Travailler avec SciSense, c'est bénéficier d'une approche qui allie:</p>
 
             <div className="skill-grid">
               <div className="skill-card">
@@ -255,10 +267,10 @@ export default function About() {
           <div className="section-title">
             <h2>Prêt à collaborer?</h2>
           </div>
-          <p className="text-center">Que vous cherchiez à développer une stratégie scientifique internationale, à améliorer votre communication médicale ou à former vos équipes, mon expertise unique est à votre service.</p>
+          <p className="text-center">Que vous cherchiez à développer une stratégie scientifique internationale, à améliorer votre communication médicale ou à former vos équipes, notre expertise unique est à votre service.</p>
           <div className="text-center" style={{ marginTop: '2rem' }}>
             <Link href="/contact" className="button">Prendre rendez-vous</Link>
-            <Link href="/services" className="button button-secondary">Découvrir mes services</Link>
+            <Link href="/services" className="button button-secondary">Découvrir nos services</Link>
           </div>
         </div>
       </section>

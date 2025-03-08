@@ -1,7 +1,7 @@
-# Website Plan for Aurore Inchauspé - Scientific & Medical Affairs Consultant
+# Website Plan for SciSense - Scientific & Medical Affairs Consultancy
 
 ## Website Concept
-A professional website showcasing Aurore Inchauspé's expertise as a Medical Science Liaison with a PhD in Biology and 5+ years of experience in medical affairs. The site will highlight her international experience in medico-marketing strategies, scientific communication excellence, KOL management, and innovative work developing AI applications for scientific research.
+A professional website showcasing SciSense's expertise in Medical Science Liaison services with a PhD in Biology and 5+ years of experience in medical affairs. The site will highlight international experience in medico-marketing strategies, scientific communication excellence, KOL management, and innovative work developing AI applications for scientific research.
 
 ## Target Audience
 - Pharmaceutical companies seeking medical science liaison expertise
@@ -59,7 +59,7 @@ A professional website showcasing Aurore Inchauspé's expertise as a Medical Sci
 
 ## Design Elements
 - Clean, professional design with medical/scientific visual cues
-- Color scheme: Blues and whites (professional, medical, trustworthy)
+- Color scheme: Violet, blue, and green (professional, medical, trustworthy)
 - Typography: Modern, clean fonts that convey expertise and professionalism
 - Visual elements: Scientific illustrations, data visualizations, and professional photography
 - Responsive design for all devices
@@ -90,9 +90,9 @@ A professional website showcasing Aurore Inchauspé's expertise as a Medical Sci
 
 ## Implementation Plan
 1. Domain registration: Suggested domains
-   - aurore-inchauspe.com
-   - inchauspe-scientific.com
-   - scientific-medical-affairs.fr
+   - scisense.com
+   - scisense.fr
+   - scisense-consulting.com
 
 2. Website development phases:
    - Planning and wireframing (1-2 weeks)

@@ -58,14 +58,14 @@ export default function Home() {
           </div>
           <div className="about-grid">
             <div className="about-content">
-              <p>Du laboratoire à la stratégie internationale, mon parcours unique combine rigueur scientifique et vision stratégique.</p>
+              <p>Du laboratoire à la stratégie internationale, notre approche unique combine rigueur scientifique et vision stratégique.</p>
               <ul>
-                <li><strong>Doctorat en Biologie Moléculaire</strong> - Université Claude Bernard Lyon 1</li>
-                <li><strong>5 ans d'expérience chez Boiron Groupe</strong> en affaires scientifiques et médicales</li>
+                <li><strong>Expertise doctorale en Biologie Moléculaire</strong></li>
+                <li><strong>Plus de 5 ans d'expérience</strong> en affaires scientifiques et médicales</li>
                 <li><strong>Déploiement de stratégies dans 10 pays</strong> avec coordination d'équipes internationales</li>
                 <li><strong>Développement de systèmes IA</strong> pour l'analyse et la rédaction scientifique</li>
               </ul>
-              <Link href="/about" className="button">En savoir plus sur mon parcours</Link>
+              <Link href="/about" className="button">En savoir plus sur notre approche</Link>
             </div>
             <div className="about-image">
               {/* Placeholder for profile image */}
@@ -131,7 +131,7 @@ export default function Home() {
           <div className="section-title">
             <h2>Prêt à transformer vos défis scientifiques en opportunités?</h2>
           </div>
-          <p className="text-center">Que vous cherchiez à développer une stratégie scientifique internationale, à améliorer votre communication médicale ou à former vos équipes, mon expertise unique est à votre service.</p>
+          <p className="text-center">Que vous cherchiez à développer une stratégie scientifique internationale, à améliorer votre communication médicale ou à former vos équipes, notre expertise unique est à votre service.</p>
           <div className="text-center" style={{ marginTop: '2rem' }}>
             <Link href="/contact" className="button">Prendre rendez-vous</Link>
           </div>

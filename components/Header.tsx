@@ -7,7 +7,7 @@ export default function Header() {
     <header>
       <div className="container header-container">
         <div className="logo">
-          <Link href="/">Aurore Inchauspé</Link>
+          <Link href="/">SciSense</Link>
         </div>
         <nav className="desktop-nav">
           <ul>

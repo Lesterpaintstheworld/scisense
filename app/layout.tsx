@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Aurore Inchauspé - Consultante en Affaires Scientifiques & Médicales',
+  title: 'SciSense - Making Science make sense',
   description: 'Expertise en stratégies médico-scientifiques internationales, gestion de réseaux KOL et applications d\'IA pour la recherche scientifique',
 };
 
