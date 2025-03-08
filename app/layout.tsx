@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import '@/app/globals.css';
+import './globals.css';
 
 export const metadata = {
   title: 'Aurore Inchauspé - Consultante en Affaires Scientifiques & Médicales',
