@@ -39,29 +39,39 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-primary);
   font-weight: 700;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
+  margin-top: 1.2em; /* Réduire de 1.5em */
+  margin-bottom: 0.4em; /* Réduire de 0.5em */
   line-height: 1.2;
   color: var(--primary-violet);
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem; /* Réduire de 2.5rem */
   margin-top: 0;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem; /* Réduire de 2rem */
   color: var(--secondary-blue);
 }
 
 h3 {
-  font-size: 1.5rem;
-  color: var(--accent-green);
+  font-size: 1.3rem; /* Réduire de 1.5rem */
+  color: var(--accent-pink); /* Corriger la référence à accent-green */
 }
 
 p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem; /* Réduire de 1.5rem */
+}
+
+/* Améliorer l'espacement des listes */
+ul {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
 }
 
 a {
@@ -89,7 +99,7 @@ strong {
 }
 
 .section {
-  padding: 4rem 0;
+  padding: 3rem 0; /* Réduire de 4rem */
 }
 
 .section-alt {
@@ -114,7 +124,7 @@ header {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.4rem; /* Réduire de 1.5rem */
   font-weight: 700;
 }
 
@@ -131,7 +141,7 @@ header {
 }
 
 .logo-tagline {
-  font-size: 0.75rem;
+  font-size: 0.7rem; /* Réduire de 0.75rem */
   font-weight: 400;
   opacity: 0.9;
 }
@@ -164,25 +174,25 @@ nav a:hover {
 .hero {
   background: linear-gradient(135deg, var(--primary-violet) 0%, var(--secondary-blue) 100%);
   color: var(--light-text);
-  padding: 6rem 0;
+  padding: 5rem 0; /* Réduire de 6rem */
   text-align: center;
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 2.6rem; /* Réduire de 3rem */
   margin-bottom: 1rem;
   color: var(--light-text);
 }
 
 .hero h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem; /* Réduire de 1.5rem */
   font-weight: 400;
   margin-bottom: 2rem;
   color: var(--light-text);
 }
 
 .hero-tagline {
-  font-size: 1.25rem;
+  font-size: 1.1rem; /* Réduire de 1.25rem */
   max-width: 800px;
   margin: 0 auto 2rem;
 }
@@ -190,20 +200,21 @@ nav a:hover {
 /* Buttons */
 .button {
   display: inline-block;
-  padding: 0.8rem 1.5rem;
+  padding: 0.7rem 1.3rem; /* Réduire de 0.8rem 1.5rem */
   background-color: var(--accent-pink);
   color: var(--light-text);
   border-radius: 4px;
   font-weight: 600;
+  font-size: 0.95rem; /* Ajouter une taille de police légèrement plus petite */
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
   border: none;
   cursor: pointer;
 }
 
 .button:hover {
   background-color: var(--light-pink);
-  transform: translateY(-2px);
+  transform: translateY(-3px); /* Réduire de -5px */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   color: var(--light-text);
@@ -225,20 +236,20 @@ nav a:hover {
 .services {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 1.5rem; /* Réduire de 2rem */
 }
 
 .service-card {
   background-color: white;
   border-radius: 8px;
-  padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1.5rem; /* Réduire de 2rem */
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.04); /* Ombre plus subtile */
+  transition: transform 0.25s ease, box-shadow 0.25s ease; /* Animation plus rapide */
 }
 
 .service-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px); /* Réduire de -5px */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08); /* Ombre plus subtile au survol */
 }
 
 .service-card h3 {
@@ -312,20 +323,20 @@ nav a:hover {
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 2rem;
+  gap: 1.5rem; /* Réduire de 2rem */
 }
 
 .project-card {
   background-color: white;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.04); /* Ombre plus subtile */
+  transition: transform 0.25s ease, box-shadow 0.25s ease; /* Animation plus rapide */
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px); /* Réduire de -5px */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08); /* Ombre plus subtile au survol */
 }
 
 .project-image {
@@ -339,6 +350,10 @@ nav a:hover {
   padding: 1.5rem;
 }
 
+.blog-content {
+  padding: 1.5rem; /* Réduire de 2rem */
+}
+
 .project-content h3 {
   margin-top: 0;
 }
@@ -347,20 +362,20 @@ nav a:hover {
 .blog-posts {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 1.5rem; /* Réduire de 2rem */
 }
 
 .blog-card {
   background-color: white;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.04); /* Ombre plus subtile */
+  transition: transform 0.25s ease, box-shadow 0.25s ease; /* Animation plus rapide */
 }
 
 .blog-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px); /* Réduire de -5px */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08); /* Ombre plus subtile au survol */
 }
 
 .blog-image {
@@ -432,7 +447,7 @@ footer {
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
+  gap: 1.5rem; /* Réduire de 2rem */
 }
 
 .footer-column h3 {
@@ -473,11 +488,11 @@ footer {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 36px; /* Réduire de 40px */
+  height: 36px; /* Réduire de 40px */
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.25s ease;
 }
 
 .social-link:hover {
@@ -541,7 +556,7 @@ footer {
 
 .section-title {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem; /* Réduire de 3rem */
 }
 
 .section-title h2 {
@@ -561,9 +576,9 @@ footer {
 }
 
 .divider {
-  height: 2px;
+  height: 1px; /* Plus fin */
   background: linear-gradient(to right, var(--primary-violet), var(--secondary-blue), var(--accent-pink));
-  margin: 3rem 0;
+  margin: 2.5rem 0; /* Réduire de 3rem */
   border-radius: 2px;
 }
 
