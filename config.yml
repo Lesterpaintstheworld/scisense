@@ -1,0 +1,49 @@
+# Site configuration
+title: Aurore Inchauspé - Consultante en Affaires Scientifiques & Médicales
+description: Expertise en stratégies médico-scientifiques internationales, gestion de réseaux KOL et applications d'IA pour la recherche scientifique
+baseurl: ""
+url: "https://aurore-inchauspe.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections
+collections:
+  services:
+    output: true
+  case-studies:
+    output: true
+  blog:
+    output: true
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "content/index.md"
+    values:
+      layout: home
+  - scope:
+      path: "content/about"
+    values:
+      layout: about
+  - scope:
+      path: "content/services"
+    values:
+      layout: services
+  - scope:
+      path: "content/case-studies"
+    values:
+      layout: case-studies
+  - scope:
+      path: "content/blog"
+    values:
+      layout: blog
+  - scope:
+      path: "content/contact"
+    values:
+      layout: contact
