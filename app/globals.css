@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Import the main CSS from assets */
 @import '../assets/css/main.css';
 
